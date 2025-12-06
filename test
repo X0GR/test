@@ -1,0 +1,18 @@
+
+
+def hello_world():
+    """Simple function to test Python interpreter."""
+    print("Hello, World!")
+    return True
+
+def test_basic_operations():
+    """Test basic arithmetic and string operations."""
+    assert 2 + 2 == 4
+    assert "python" in "python interpreter"
+    assert len([1, 2, 3]) == 3
+    print("All basic operations passed!")
+
+if __name__ == "__main__":
+    hello_world()
+    test_basic_operations()
+    print("Python interpreter is working correctly!")
